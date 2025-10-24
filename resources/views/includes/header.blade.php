@@ -2,8 +2,8 @@
     <div class="container mx-auto px-4">
         <div class="flex flex-col md:flex-row items-center justify-between">
             <div class="flex items-center space-x-6">
-                @if(file_exists(public_path('storage/photos/andri-profile.jpg')))
-                    <img src="{{ asset('storage/photos/andri-profile.jpg') }}" 
+                @if(file_exists(public_path('public/andri-profile.jpg')))
+                    <img src="{{ asset('public/andri-profile.jpg') }}" 
                          alt="Foto Profil Andri" 
                          class="w-24 h-24 rounded-full border-4 border-white shadow-lg">
                 @else
