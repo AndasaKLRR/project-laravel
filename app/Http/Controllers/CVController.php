@@ -16,7 +16,7 @@ class CVController extends Controller
             'phone' => '083120390171',
             'email' => 'andriadisaputra85@gmail.com',
             'status' => 'Mahasiswa Sistem Informasi',
-            'photo' => asset('public/andri-profile.jpg') // Path ke foto
+            'photo' => asset('andri-profile.jpg') // Path ke foto
         ];
 
         $education = [
